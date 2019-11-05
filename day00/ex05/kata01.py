@@ -4,7 +4,7 @@ languages = {
     'PHP': 'Rasmus Lerdorf',
 }
 
-l = list(languages.keys())
+lang_keys = list(languages.keys())
 
 for i in range(len(languages)):
-    print(l[i] + " was created by " + languages[l[i]])
+    print(lang_keys[i] + " was created by " + languages[lang_keys[i]])
